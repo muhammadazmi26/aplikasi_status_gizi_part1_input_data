@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Data Yang Akan Diuji "
+        android:textColor="#04DB77"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        />
+
+    // jenis kelamin
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin : "
+        />
+
+    <EditText
+        android:id="@+id/JK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Jenis Kelamin"
+        />
+
+    // Tinggi Badan
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi Badan : "
+        />
+
+    <EditText
+        android:id="@+id/tinggi_badan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan tinggi badan"
+        />
+
+    // Berat Badan
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat Badan : "
+        />
+
+    <EditText
+        android:id="@+id/berat_badan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan berat badan"
+        />
+
+    // Umur
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umur : "
+        />
+
+    <EditText
+        android:id="@+id/umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan umur"
+        />
+
+    // Tombol proses prediksi
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:layout_gravity="center_horizontal"
+        />
+
+    //menampilkan inputan
+
+    //jk
+    <TextView
+        android:id="@+id/tampil_jk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    //tinggi badan
+    <TextView
+    android:id="@+id/tampil_tb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+    // berat badan
+    <TextView
+        android:id="@+id/tampil_bb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    // umur
+    <TextView
+        android:id="@+id/tampil_umur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
